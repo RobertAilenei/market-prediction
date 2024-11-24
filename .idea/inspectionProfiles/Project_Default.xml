@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.*" />
+          <option value="gramatica.set" />
+          <option value="gramatica.open" />
+          <option value="gramatica.print" />
+          <option value="gramatica.len" />
+          <option value="automat_finit.*" />
+          <option value="conversii.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
