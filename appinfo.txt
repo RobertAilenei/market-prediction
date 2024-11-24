@@ -12,7 +12,7 @@ Key Features:
 
 Files:
 1. app.py: The main application script for the Streamlit interface.
-2. data/gold_prices.csv: Historical gold prices dataset (10,000 records included).
+2. data/gold_prices.csv: Historical gold prices dataset.
 3. utils/data_loader.py: Script to load and preprocess data.
 4. utils/plot_utils.py: Helper functions for plotting gold price trends.
 
@@ -29,5 +29,3 @@ Dependencies:
 - NumPy
 - Matplotlib
 
-Author: Your Name
-Date: November 2024
