@@ -1,0 +1,33 @@
+
+Application Name: Gold Price Prediction
+Description: 
+This Streamlit application predicts the future prices of gold bullion in Romania based on statistical methods, 
+using historical data. The application visualizes gold price trends and allows the user to input a number of days 
+to predict prices ahead.
+
+Key Features:
+1. Displays historical gold prices from a CSV file.
+2. Visualizes gold price trends over time with interactive plots.
+3. Uses statistical methods to estimate gold prices for a given number of days into the future.
+
+Files:
+1. app.py: The main application script for the Streamlit interface.
+2. data/gold_prices.csv: Historical gold prices dataset (10,000 records included).
+3. utils/data_loader.py: Script to load and preprocess data.
+4. utils/plot_utils.py: Helper functions for plotting gold price trends.
+
+Instructions:
+1. Install required dependencies using the provided requirements.txt file.
+2. Run the application using the command: streamlit run app.py
+3. Adjust the slider on the interface to set the number of days ahead for predictions.
+4. View the prediction and visual trends in the application.
+
+Dependencies:
+- Python 3.x
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+
+Author: Your Name
+Date: November 2024
